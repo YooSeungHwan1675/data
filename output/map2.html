@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c1d4f3f55b406afd7551df28e4abcc18 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c1d4f3f55b406afd7551df28e4abcc18" ></div>
+        
+</body>
+<script>    
+    
+            var map_c1d4f3f55b406afd7551df28e4abcc18 = L.map(
+                "map_c1d4f3f55b406afd7551df28e4abcc18",
+                {
+                    center: [37.5697599, 126.9836604],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a3415705457fe8b5767f6cf3121b8e47 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c1d4f3f55b406afd7551df28e4abcc18);
+        
+    
+            var marker_7dea861dab420adbc6f7f7019493cf33 = L.marker(
+                [37.579617, 126.977041],
+                {}
+            ).addTo(map_c1d4f3f55b406afd7551df28e4abcc18);
+        
+    
+        var popup_64c292d9a96cab3d3270997dde32621f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65fb35a9e2a79124240e3dcd09cae130 = $(`<div id="html_65fb35a9e2a79124240e3dcd09cae130" style="width: 100.0%; height: 100.0%;">경복궁</div>`)[0];
+                popup_64c292d9a96cab3d3270997dde32621f.setContent(html_65fb35a9e2a79124240e3dcd09cae130);
+            
+        
+
+        marker_7dea861dab420adbc6f7f7019493cf33.bindPopup(popup_64c292d9a96cab3d3270997dde32621f)
+        ;
+
+        
+    
+    
+            var marker_6b1dd1affc1bb2fb184c401af2950ae9 = L.marker(
+                [37.5658049, 126.9751461],
+                {}
+            ).addTo(map_c1d4f3f55b406afd7551df28e4abcc18);
+        
+    
+        var popup_ff56e8d4e23e025da513ac2d79904823 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1595a65e41ffcff7deb05b3c6684cb0 = $(`<div id="html_d1595a65e41ffcff7deb05b3c6684cb0" style="width: 100.0%; height: 100.0%;">덕수궁</div>`)[0];
+                popup_ff56e8d4e23e025da513ac2d79904823.setContent(html_d1595a65e41ffcff7deb05b3c6684cb0);
+            
+        
+
+        marker_6b1dd1affc1bb2fb184c401af2950ae9.bindPopup(popup_ff56e8d4e23e025da513ac2d79904823)
+        ;
+
+        
+    
+    
+            var marker_8819ef094ef9d20b45da04d7f5c26162 = L.marker(
+                [37.5794309, 126.9910426],
+                {}
+            ).addTo(map_c1d4f3f55b406afd7551df28e4abcc18);
+        
+    
+        var popup_b71356de5a9d428bef1d10ca468a0076 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f4d446489fdddcb243c8cf17c7c7c0f = $(`<div id="html_7f4d446489fdddcb243c8cf17c7c7c0f" style="width: 100.0%; height: 100.0%;">창덕궁</div>`)[0];
+                popup_b71356de5a9d428bef1d10ca468a0076.setContent(html_7f4d446489fdddcb243c8cf17c7c7c0f);
+            
+        
+
+        marker_8819ef094ef9d20b45da04d7f5c26162.bindPopup(popup_b71356de5a9d428bef1d10ca468a0076)
+        ;
+
+        
+    
+    
+            var marker_8fb189edc8dd706360b495d46b61ec39 = L.marker(
+                [37.5787708, 126.9948698],
+                {}
+            ).addTo(map_c1d4f3f55b406afd7551df28e4abcc18);
+        
+    
+        var popup_c2f357bcaa15d08848ffb582605b2e6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bd6396781e3f4d4141bc49cc94d831d = $(`<div id="html_7bd6396781e3f4d4141bc49cc94d831d" style="width: 100.0%; height: 100.0%;">창경궁</div>`)[0];
+                popup_c2f357bcaa15d08848ffb582605b2e6f.setContent(html_7bd6396781e3f4d4141bc49cc94d831d);
+            
+        
+
+        marker_8fb189edc8dd706360b495d46b61ec39.bindPopup(popup_c2f357bcaa15d08848ffb582605b2e6f)
+        ;
+
+        
+    
+    
+            var marker_c51a8bf36ee0595cc67f785c26229d89 = L.marker(
+                [37.57327406, 126.99516214],
+                {}
+            ).addTo(map_c1d4f3f55b406afd7551df28e4abcc18);
+        
+    
+        var popup_585c21ec72c8b050e75c878a5d15d682 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3598d6eb759699642215eee508e1774a = $(`<div id="html_3598d6eb759699642215eee508e1774a" style="width: 100.0%; height: 100.0%;">종묘</div>`)[0];
+                popup_585c21ec72c8b050e75c878a5d15d682.setContent(html_3598d6eb759699642215eee508e1774a);
+            
+        
+
+        marker_c51a8bf36ee0595cc67f785c26229d89.bindPopup(popup_585c21ec72c8b050e75c878a5d15d682)
+        ;
+
+        
+    
+    
+            var marker_b8b8ca72d32dc118006d57f25e23c17f = L.marker(
+                [37.5697869, 126.9823161],
+                {}
+            ).addTo(map_c1d4f3f55b406afd7551df28e4abcc18);
+        
+    
+        var popup_9a3fdce10d1a7725922e88d8de5d0083 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_b5e813bfd30c4ff10484221147d7fbfb = $(`<div id="html_b5e813bfd30c4ff10484221147d7fbfb" style="width: 100.0%; height: 100.0%;">영풍문고 - 종로본점</div>`)[0];
+                popup_9a3fdce10d1a7725922e88d8de5d0083.setContent(html_b5e813bfd30c4ff10484221147d7fbfb);
+            
+        
+
+        marker_b8b8ca72d32dc118006d57f25e23c17f.bindPopup(popup_9a3fdce10d1a7725922e88d8de5d0083)
+        ;
+
+        
+    
+</script>
